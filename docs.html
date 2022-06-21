@@ -24,7 +24,7 @@
     <script src="./public/js/index.js"></script>
 
     <!-- Replace the title name -->
-    <title>Cleandocs-template</title>
+    <title>DS Creator Docs : Docs</title>
   </head>
   <body style="font-family: 'Poppins', sans-serif">
     <!-- Header start here -->
@@ -34,7 +34,7 @@
       >
         <ul>
           <!-- You can change your logo name -->
-          <li class="font-mono text-xl">CleanDocs</li>
+          <li class="font-mono text-xl">DS Creator</li>
         </ul>
         <ul id="header-nav" class="mr-6 sm:flex md:flex lg:flex hidden">
           <li
@@ -46,13 +46,10 @@
             <ul class="flex">
               <!-- Change the href link to your respective social media accounts-->
               <li class="mr-5">
-                <a href="#Github"><img src="./public/svgs/github.svg" alt="GitHub Link" /></a>
-              </li>
-              <li class="mr-5">
-                <a href="#Twitter"><img src="./public/svgs/twitter.svg" alt="Twiiter Link" /></a>
+                <a href="https://github.com/BowersIndustry/ds-creator-docs"><img src="./public/svgs/github.svg" alt="GitHub Link" /></a>
               </li>
               <li class="mr-0">
-                <a href="#Youtube"><img src="./public/svgs/youtube.svg" alt="YouTube Link" /></a>
+                <a href="https://www.youtube.com/channel/UCpPIw9q3QlrpsNsurh2Tzjw"><img src="./public/svgs/youtube.svg" alt="YouTube Link" /></a>
               </li>
             </ul>
           </div>
@@ -102,24 +99,23 @@
         role="navigation"
       >
         <ul class="nav">
-          <li class="font-medium"><a href="#link1">Getting Started</a></li>
+          <li class="font-medium"><a href="#Get_Start">Getting Started</a></li>
           <li class="font-medium">
-            <a href="#link2">Installation</a>
+            <a href="#Install">Installation</a>
             <ul class="nav">
               <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
-                <a href="#link2_1">Windows</a>
+                <a href="#Install_Win">Windows</a>
               </li>
               <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
-                <a href="#link2_2">Mac Os</a>
+                <a href="#Install_Mac">MacOS</a>
               </li>
               <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
-                <a href="#link2_3">Linux</a>
+                <a href="#Install_Lin">Linux</a>
               </li>
             </ul>
           </li>
-          <li class="font-medium"><a href="#link3">Configuration</a></li>
           <li class="font-medium">
-            <a href="#link4">Components</a>
+            <a href="#Assets">Assets</a>
             <ul class="nav">
               <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
                 <a href="#link4_1">Font Family</a>
@@ -143,41 +139,52 @@
 
       <div class="pl-5 md:pl-[250px] lg:pl-[250px]">
         <!-- Link1 start -->
-        <section id="link1">
+        <section id="Get_Start">
           <div class="h-full mt-10">
             <p class="font-normal text-2xl">Getting Started</p>
             <p class="leading-0 w-3/4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              quae similique nostrum, laborum, velit beatae esse nobis dolorem
-              saepe quas iste provident iusto assumenda facilis quisquam enim
-              quo. Beatae, fuga!
+              DS Creator is a game engine that allows users to create their very own DS games! DS Creator is easy to use.
             </p>
-            <p class="text-sm pt-5 pb-4">Small Description</p>
           </div>
         </section>
         <!-- Link1 end -->
 
         <!-- Link2 Start -->
-        <section id="link2">
+        <section id="Install">
           <div class="h-full mt-5">
             <p class="font-normal text-2xl">Installation</p>
-            <p class="text-sm pb-4">Small Description</p>
           </div>
-          <section id="link2_1" class="border-l-[2px]">
+          <section id="Install_Win" class="border-l-[2px]">
             <div class="h-full mt-3 ml-5">
               <p class="font-normal text-xl">Windows</p>
-              <p class="text-sm pb-4">Fork and clone the github repository.</p>
-              <script src="https://gist.github.com/lmas3009/1de9a377390e49e4b7071a413112c679.js"></script>
-            </div>
+              <p>Start by downloading and extracting DS Creator for Windows.</p>
+              <a href="https://bowersindustry.itch.io/ds-creator" style="color:blue;">https://bowersindustry.itch.io/ds-creator</a>
+			  <br><br>
+			  <p>Next, go to the devkitPro GitHub releases and download the "devkitProUpdater-3.0.3.exe" from under "devkitPro Updater v3.0.3".</p>
+			  <a href="https://github.com/devkitPro/installer/releases" style="color:blue;">https://github.com/devkitPro/installer/releases</a>
+			  <br><br>
+			  <p>Once that is done downloading, run it.<br>Click on "Next".</p>
+			  <img src="./public/imgs/Win_devkitPro_1.png"/>
+			  <br><br>
+			  <p>Make sure the "Remove downloaded files" option is checked. Then click "Next".</p>
+			  <img src="./public/imgs/Win_devkitPro_2.png"/>
+			  <br><br>
+			  <p>Make sure only "NDS Development" is checked. Then click "Next".</p>
+			  <img src="./public/imgs/Win_devkitPro_3.png"/>
+			  <br><br>
+			  <p>It will then start installing.<br>Once it is done, you will see this,</p>
+			  <img src="./public/imgs/Win_devkitPro_4.png"/>
+			  <p>Click "Next" you are finished installing libnds!<br>Next, open the folder with the extracted DS Creator in it. Then open "DS Creator.exe" and have fun making your DS game!</p>
+			</div>
           </section>
-          <section id="link2_2" class="border-l-[2px]">
+          <section id="Install_Mac" class="border-l-[2px]">
             <div class="h-full mt-5 ml-5">
-              <p class="font-normal text-xl">Mac OS</p>
+              <p class="font-normal text-xl">MacOS</p>
               <p class="text-sm pb-4">Fork and clone the github repository.</p>
               <script src="https://gist.github.com/lmas3009/1de9a377390e49e4b7071a413112c679.js"></script>
             </div>
           </section>
-          <section id="link2_3" class="border-l-[2px]">
+          <section id="Install_Lin" class="border-l-[2px]">
             <div class="h-full mt-5 ml-5">
               <p class="font-normal text-xl">Linux</p>
               <p class="text-sm pb-4">Fork and clone the github repository.</p>
@@ -187,26 +194,11 @@
         </section>
         <!-- Link2 Ends -->
 
-        <!-- Link3 start -->
-        <section id="link3">
-          <div class="h-full mt-5">
-            <p class="font-normal text-2xl">Configuration</p>
-            <p class="leading-0 w-3/4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              quae similique nostrum, laborum, velit beatae esse nobis dolorem
-              saepe quas iste provident iusto assumenda facilis quisquam enim
-              quo. Beatae, fuga!
-            </p>
-            <p class="text-sm pt-5 pb-4">Small Description</p>
-          </div>
-        </section>
-        <!-- Link3 end -->
-
         <!-- Link4 start -->
-        <section id="link4">
+        <section id="Assets">
           <div class="h-full mt-5">
-            <p class="font-normal text-2xl">Components</p>
-            <p class="text-sm pt-2 pb-4">Components used are:</p>
+            <p class="font-normal text-2xl">Assets</p>
+            <p class="text-sm pt-2 pb-4">Assets are all the music, sfx, and art you use in your game.</p>
           </div>
 
           <!-- Font Family start -->
